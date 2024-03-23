@@ -3,15 +3,46 @@
         {
             "name": "linux-gcc-x64",
             "includePath": [
-                "${workspaceFolder}/**"
+                "/workspaces/MyGit/**"
             ],
-            "compilerPath": "/usr/bin/clang++",
-            "cStandard": "c23",
-            "cppStandard": "c++23",
-            "intelliSenseMode": "windows-clang-x64",
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
             "compilerArgs": [
                 ""
-            ]
+            ],
+            "compilerPathInCppPropertiesJson": "/usr/bin/gcc",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "/workspaces/MyGit/**",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang++",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "windows-msvc-x64"
+        },
+        {
+            "name": "linux-g++-x64",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
         }
     ],
     "version": 4
